@@ -19,11 +19,16 @@ ap.add_argument("-o", "--output", required=True,
 	help="path to output directory of images")
 args = vars(ap.parse_args())
 
+# Create new output directory if it doesn't exist
+my_path = os.getcwd()
+if not os.path.exists(os.path.join(my_path,args['output'])):
+	os.makedirs(os.path.join(my_path,args['output']))
+
 # set your Microsoft Cognitive Services API key along with (1) the
 # maximum number of results for a given search and (2) the group size
 # for results (maximum of 50 per request)
 API_KEY = BING_API_KEY
-MAX_RESULTS = 250
+MAX_RESULTS = 350
 GROUP_SIZE = 50
 
 # set the endpoint API URL
@@ -98,7 +103,7 @@ for offset in range(0, estNumResults, GROUP_SIZE):
 				print("[INFO] skipping: {}".format(v["contentUrl"]))
 				continue
 
-        # bdthai81: Comment out cv2, don't intend to use opencv
+    # bdthai81: Comment out cv2, don't intend to use opencv
 		# try to load the image from disk
 		# image = cv2.imread(p)
 
