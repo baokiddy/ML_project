@@ -28,7 +28,7 @@ if not os.path.exists(os.path.join(my_path,args['output'])):
 # maximum number of results for a given search and (2) the group size
 # for results (maximum of 50 per request)
 API_KEY = BING_API_KEY
-MAX_RESULTS = 350
+MAX_RESULTS = 550
 GROUP_SIZE = 50
 
 # set the endpoint API URL
