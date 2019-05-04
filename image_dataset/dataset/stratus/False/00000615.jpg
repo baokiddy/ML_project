@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SlidePlayer - Upload and Share your PowerPoint presentations</title>
+    <meta charset="utf-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta property="og:title" content="SlidePlayer - Upload and Share your PowerPoint presentations">
+    <meta property="og:type" content="website">
+
+    
+    
+    
+    <script>
+        var page_data = {"domain_id":1,"design_id":3,"page_id":0,"rev":"904a","window_load":0,"host":"slideplayer.com","mapper_key":"1bd631c36bcc5"};
+        var is_nude = 0;
+    </script>
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
+
+    
+    <link rel="stylesheet" href="/static/blue_design/css/904a/total.css">
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-6133583279631137",
+                enable_page_level_ads: true
+            });
+        </script>
+        <style>
+
+
+.KBOUMRS5L4PUEXSTJNLUAH2TKZAQ {
+    width: 100%;
+}
+
+.KNLEC3K2LNLFMV24 {
+    display: none!important;
+}
+
+#IJPFGUKXNUDA {
+    margin: auto;
+}
+
+#IJPFGUKXNUFQ, #IJPFGUKXNUBQAAY {
+    display: inline-block;
+ }
+
+#IJPFGUKXNUBQE, #IJPFGUKXNUBQAAI {
+    margin: 0 40px 40px 0;
+    vertical-align: top;
+}
+
+#IJPFGUKXNUAQ, #IJPFGUKXNUAQO {
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+#IJPFGUKXNUCQ, #IJPFGUKXNUAQU {
+    display: inline-block;
+}
+
+#IJPFGUKXNUBQOAY, #IJPFGUKXNUBQMCQ, #IJPFGUKXNUBQMCY, #IJPFGUKXNUBQIAI, #IJPFGUKXNUBQKBY, #IJPFGUKXNUBQKBA {
+    margin-top: -30px!important;
+}
+
+#IJPFGUKXNUBQUCY, #IJPFGUKXNUBQWBQ,#IJPFGUKXNUAAEAY, #IJPFGUKXNUBQUAI, #IJPFGUKXNUBQKCY, #IJPFGUKXNUBQUAQ, #IJPFGUKXNUBQUBA, #IJPFGUKXNUBQKAQ, #IJPFGUKXNUBQIBI, #IJPFGUKXNUBQIBA, #IJPFGUKXNUBQIAI, #IJPFGUKXNUDQA, #IJPFGUKXNUAAW, #IJPFGUKXNUBQABQ, #IJPFGUKXNUBQABY, #IJPFGUKXNUBQABA, #IJPFGUKXNUBQABI, #IJPFGUKXNUBQACQ, #IJPFGUKXNUBQACY, #IJPFGUKXNUBQCAY, #IJPFGUKXNUBQMAI, #IJPFGUKXNUBQMBQ, #IJPFGUKXNUBQMBY, #IJPFGUKXNUBQMCQ, #IJPFGUKXNUBQMCY, #IJPFGUKXNUBQOAY, #IJPFGUKXNUBQOBA, #IJPFGUKXNUBQOBY {
+    margin: auto;
+}
+
+#IJPFGUKXNUBQCAQ {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#IJPFGUKXNUBQM {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 20px 20px 0;
+    z-index: 100;
+}
+
+#IJPFGUKXNUBQI {
+    z-index: 100;
+}
+
+#IJPFGUKXNUAAEBQ{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+div.KNLEC3K6KNIFOXQ span {
+    margin-left: 1px;
+}
+
+div.KNLEC3K6KNIFOXQ {
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    height: 15px;
+    padding-top: 1px;
+    line-height: 13px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+.KNLEC3KGJJDA {
+    text-align: center;
+}
+
+        </style>
+</head>
+
+<body onload="page_data.window_load = 1;">
+
+
+<div class="tm-container tm-dark" id="header">
+    <div id="IJPFGUKXNUAAEBQ" class="KNLEC KNLEC3K2LNLFMV24"></div>
+    <div class="uk-container uk-container-center">
+        <div class="uk-navbar uk-navbar-attached"><a href="/" class="uk-navbar-brand"><img src="/static/blue_design/img/logo_slideplayer.png" class="tm-logo" title="SlidePlayer" alt="SlidePlayer"></a>
+            <div class="uk-navbar-flip">
+                <div class="uk-navbar-nav">
+                    <div class="uk-navbar-content">
+                        <a href="/user/slides/" id="upload-button" class="uk-button uk-button-success"><span>Upload</span><span class="uk-icon-cloud-upload uk-margin-small-left"></span>
+                        </a>
+
+
+                        <button id="login-button"  onclick="location.href='/user/slides/#login'" class="uk-button uk-margin-small-left"><span>Log in</span><span class="uk-icon-sign-in uk-margin-small-left"></span></button>
+
+                        <div id="user-nav" data-uk-dropdown class="uk-position-relative uk-button uk-button-primary uk-dropdown-flip">
+                            <div>
+                                <span id="small-user-nav" class="uk-icon-user uk-text-large uk-margin-small-left"></span>
+                                <span id="user-nav-name"></span>
+                                <span class="uk-icon-caret-down uk-margin-small-left"></span>
+                            </div>
+                            <div id="user-dropdown" class="uk-dropdown">
+                                <ul class="uk-nav uk-nav-dropdown">
+                                    <li><a href="/user/slides/"><span class="uk-icon-picture-o uk-margin-small-right"></span>My presentations</a></li>
+                                    <li><a href="/user/account/"><span class="uk-icon-user uk-margin-small-right"></span>Profile</a></li>
+                                    <li><a href="/user/account/feedback/"><span class="uk-icon-envelope-o uk-margin-small-right"></span>Feedback</a></li>
+                                    <li><a href="/user/index/logout/"><span class="uk-icon-sign-out uk-margin-small-right"></span>Log out</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="nav-search" class="uk-navbar-content uk-navbar-center">
+                <form method="get" action="/search/" id="search_form" class="search_form uk-form uk-margin-remove uk-display-inline-block">
+                    <input name="q" id="search_query_top" type="text" required="required" placeholder="Search..." class="tm-form-width-nav" autocomplete="off" value="">
+                    <button class="uk-button uk-button-primary" id="search_btn">Search</button>
+                </form>
+            </div>
+
+            <div class="uk-container uk-container-center uk-nbfc">
+                <div class="uk-text-center">
+                    <!-- list -->
+                    <div id="IJPFGUKXNUBQOAQ" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-small-top uk-margin-small-bottom uk-text-center "></div>                    <div id="IJPFGUKXNUBQOBQ" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-small-top uk-margin-small-bottom uk-text-center uk-margin-left "></div>                    <!--grid-->
+                    <div id="IJPFGUKXNUBQIBQ" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-small-top uk-margin-small-bottom uk-text-center "></div>                    <div id="IJPFGUKXNUBQIBY" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-small-top uk-margin-small-bottom uk-text-center uk-margin-left "></div>                    <!-- google search -->
+                    <div id="IJPFGUKXNUBQUBA" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-small-top uk-margin-small-bottom uk-text-center "></div>                    <div id="IJPFGUKXNUAAEBY" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-small-top uk-margin-small-bottom uk-text-center uk-margin-left "></div>                    <!-- download -->
+                    <div id="IJPFGUKXNUBQUBI" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-small-top uk-margin-small-bottom uk-text-center "></div>                    <div id="IJPFGUKXNUBQUCQ" class="KNLEC KNLEC3K2LNLFMV24 uk-display-inline-block uk-margin-left uk-margin-small-top uk-margin-small-bottom uk-text-center "></div>                </div>
+                <div class="uk-text-center">
+                    <div id="IJPFGUKXNUBQUCY" class="KNLEC KNLEC3K2LNLFMV24 uk-margin-small-top uk-margin-small-bottom uk-text-center "></div>                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="login-window" class="modal fade" style="display: none">
+    <div style="width: 400px" class="uk-modal-dialog modal-dialog">
+
+        <h3>Log in</h3>
+
+        <div id="modal-auth-error"><div class="uk-alert uk-alert-danger"></div></div>
+
+        <form action="javascript:;" id="modal-auth-form" class="uk-form">
+            <div class="uk-form-row">
+                <input type="email" name="email" required="required" placeholder="Email" class="uk-width-1-1 uk-form-large">
+            </div>
+            <div class="uk-form-row">
+                <input type="password" name="password" required="required" placeholder="Your password" class="uk-width-1-1 uk-form-large">
+            </div>
+            <div class="uk-form-row">
+                <div class="g-recaptcha" auth_fail="" recap_id="" id="auth_recaptcha"></div>
+            </div>
+
+            <div class="uk-form-row">
+                <button type="submit" class="uk-width-1-1 uk-button uk-button-primary uk-button-large">Log in</button></div>
+            <div class="uk-form-row uk-text-small">
+                <h4>Auth with social network: </h4>
+                                    <a rel="nofollow" href="#" provider="facebook" class="uk-badge uk-badge-notification uk-badge-warning uk-margin-small-right social-icon">
+                        <span class="uk-icon-facebook uk-text-large uk-margin-small-right uk-margin-small-left"></span>
+                    </a>
+                                    <a rel="nofollow" href="#" provider="google" class="uk-badge uk-badge-notification uk-badge-warning uk-margin-small-right social-icon">
+                        <span class="uk-icon-google-plus uk-text-large uk-margin-small-right uk-margin-small-left"></span>
+                    </a>
+                                    <a rel="nofollow" href="#" provider="linkedin" class="uk-badge uk-badge-notification uk-badge-warning uk-margin-small-right social-icon">
+                        <span class="uk-icon-linkedin uk-text-large uk-margin-small-right uk-margin-small-left"></span>
+                    </a>
+                                <div>
+                    <label class="uk-float-left">
+                        <a href="/user/slides/" class="uk-margin-top uk-link">Registration</a>
+                    </label><a href="/user/index/restorepassword/" class="uk-float-right uk-link">Forgot your password?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div></div>
+
+
+
+
+<div class="tm-container" style="min-height: 800px">
+    <div class="uk-container uk-container-center">
+        <div class="uk-grid">
+            <div class="uk-width-1-1 uk-text-center">
+                <div class="uk-margin-large-top uk-margin-large-bottom" id="notfound-title">
+                    <h1>There is no such page</h1>
+                    <div>It is possible that there never was.</div>
+                    <h2 id="notfound-title2">404</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer" class="tm-container tm-dark">
+    <div class="uk-container uk-container-center">
+        <div class="uk-navbar">
+            <div class="uk-navbar-nav">
+
+                <div class="uk-float-right uk-margin uk-margin-large-left" id="about-project">
+                    <h5 class="uk-margin-remove">About project</h5>
+                    <a href="/support/project/" class="uk-text-small">SlidePlayer</a><br>
+                    <a href="/support/terms/" class="uk-text-small">Terms of Service</a>
+                </div>
+                <div class="uk-float-right uk-margin uk-margin-large-left">
+
+                    <h5 class="uk-margin-remove">Feedback</h5>
+                    <a href="/support/privacy/" class="uk-text-small">Privacy Policy</a><br>
+                    <a href="/support/feedback/" class="uk-text-small">Feedback</a>
+                </div>
+
+                <div class="uk-float-left copyright">
+                    <p class="uk-text-small uk-margin-top">&copy; 2019 SlidePlayer.com Inc. <br />All rights reserved.</p>
+                </div>
+            </div>
+            <div class="uk-navbar-flip">
+                <div class="uk-navbar-nav">
+                    <div class="uk-navbar-content">
+                        <form method="get" action="/search/" id="search_form_bottom" class="search_form uk-form uk-margin-top uk-display-inline-block">
+                            <input type="text" required="required" name="q" id="search_query_bottom" value="" placeholder="Search..." autocomplete="off" class="tm-form-width-footer">
+                            <button class="uk-button uk-button-primary">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer_height_for_cookie_msg" style="height:5em; visibility: hidden;"><!--height for cookie banner on bottom of page --></div>
+    </div>
+</div>
+
+<div id="cookie_msg" style="z-index:99999; background-color: #ededed; border-top: 1px #dddddd solid; width: 100%; position: fixed;bottom: 0;padding: 3px; padding-right: 40px ;text-align: center;left:0; font-size: 11px; line-height: 1.2em">
+    To make this website work, we log user data and share it with processors. To use this website, you must agree to our <a href="/support/privacy/" target="_blank">Privacy Policy</a>, including cookie policy.
+        <button href="#" type="submit" onclick="accept_cookie_msg();return false;" class="uk-button uk-button-mini">I agree.</button>&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<script>
+    function accept_cookie_msg() {
+        document.cookie = "cookie_msg_viewed_v2=1;max-age=15768000;path=/";
+        hide_cookie_msg();
+    }
+
+    function hide_cookie_msg() {
+        var cb = document.getElementById('cookie_msg');
+        if (cb) { cb.parentElement.removeChild(cb); }
+        var fcb = document.getElementById('footer_height_for_cookie_msg');
+        if (fcb) { fcb.parentElement.removeChild(fcb); }
+    }
+
+    (function () {
+        var get_cookie        = function (name) {
+                var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+                return matches ? decodeURIComponent(matches[1]) : undefined
+            },
+            cookie_msg_viewed = get_cookie('cookie_msg_viewed_v2'),
+            eea_country       = (function () {
+                var c = get_cookie('country');
+                return typeof(c)==='undefined'|| c.length !== 2 ||c === "EU" || c === "VA" || c === "GF" || c === "GP" || c === "MQ" || c === "ME" || c === "YT" || c === "RE" || c === "MF" || c === "GI" || c === "AX" || c === "PM" || c === "GL" || c === "BL" || c === "SX" || c === "AW" || c === "CW" || c === "WF" || c === "PF" || c === "NC" || c === "TF" || c === "AI" || c === "BM" || c === "IO" || c === "VG" || c === "KY" || c === "FK" || c === "MS" || c === "PN" || c === "SH" || c === "GS" || c === "TC" || c === "AD" || c === "LI" || c === "MC" || c === "SM" || c === "VA" || c === "JE" || c === "GG" || c === "GI" || c === "GB" || c === "SE" || c === "ES" || c === "SI" || c === "SK" || c === "RO" || c === "PT" || c === "PL" || c === "NL" || c === "MT" || c === "LU" || c === "LT" || c === "LV" || c === "IT" || c === "IE" || c === "HU" || c === "GR" || c === "DE" || c === "FR" || c === "FI" || c === "EE" || c === "DK" || c === "CZ" || c === "CY" || c === "HR" || c === "BG" || c === "BE" || c === "AT" || c === "IS" || c === "LI" || c === "NO"
+            })();
+
+        if (cookie_msg_viewed || eea_country === false) {
+            hide_cookie_msg();
+        }
+    })();
+</script>
+
+<div id="ads_text">Ads by Google</div>
+<!--<script src="/static/js/--><!--/total_blue.js" type="text/javascript"></script>-->
+
+
+<script>
+function loadScript(url, callback)
+{
+    var head;
+    if (typeof(document.getElementsByTagName)!='undefined' && document.getElementsByTagName('head') && document.getElementsByTagName('head')[0]) {
+        head = document.getElementsByTagName('head')[0];
+    } else {
+        if (typeof(setTimeout)=='undefined') {
+            window.onerror("setTimeout is undefined on function loadScript", '[system]');
+            callback(2, url);
+            return;
+        }
+        setTimeout(function() {
+            loadScript(url, callback);
+        }, 100);
+        return;
+    }
+
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    if (typeof(callback)!='undefined' && typeof(script.onload)!='undefined') {
+        script.onload = function() {
+            callback(0, url);
+        };
+    }
+    if (typeof(script.async)!='undefined') {
+        script.async = true;
+    }
+    if (typeof(callback)!='undefined' && typeof(script.onerror)!='undefined') {
+        script.onerror = function(){
+            callback(1, url);
+        };
+    }
+    head.appendChild(script);
+}
+
+window.onerror = function (msg, file, line, column, errorObj) {
+    var u = 'undefined';
+    if (typeof(file) == u) {
+        return;
+    }
+    if (file != '[system]') {
+        if (!file || msg == "Script error." || msg == 'Script error') {
+            return;
+        }
+        if (typeof(file.indexOf) != u && file.indexOf(document.domain) == -1) {
+            return;
+        }
+        if (typeof(file.substr) != u && file.substr(0, 4) != 'http') {
+            return;
+        }
+        if (typeof(file.substring) != u && file.substring(0, 4) != 'http') {
+            return;
+        }
+    }
+    var data = {
+        'url'      : document.location.toString(),
+        'page_id'  : '0',
+        'design_id':3,
+        'l'        : navigator.language,
+        'p'        : navigator.platform
+    };
+
+    if (typeof(msg) != u) {
+        if (typeof(errorObj) != u && typeof(errorObj.stack) != u) {
+            msg += ' ' + errorObj.stack;
+        }
+        data.msg = msg;
+    }
+    if (typeof(file) !== u) {
+        data.file = file;
+    }
+    if (typeof(line) !== u) {
+        data.line = line;
+    }
+    if (typeof(column) !== u) {
+        data.column = column;
+    }
+    if (typeof(page_data) !== u && page_data.req_id) {
+        data.req_id = page_data.req_id;
+    }
+    if (typeof(page_data) !== u && page_data.rev) {
+        data.rev = page_data.rev;
+    }
+
+            var img = new Image(), uri = '';
+        for (var index in data) {
+            uri += index + '=' + encodeURIComponent(data[index]) + '&';
+        }
+        img.src = '//slideplayer.com/cache/' + Math.random() + '/report/pixel.gif?type=js_error&domain_id=1&' + uri;
+    }
+
+var u = 'undefined';
+if (typeof(JSON)==u || typeof(JSON.stringify)==u) {
+    document.write('<scr'+'ipt src="//slideplayer.com/static/js/json.js" type="text/javascript"><'+'/'+'s'+'cript>');
+}
+
+if (typeof(Object.keys)==u || typeof(Object.toString)==u || typeof(String.prototype.indexOf)==u || navigator.userAgent.toString().match(/(MSIE|Opera|Firefox\/3\.|Edge|Trident|Chrome\/1\d+\.|OPR\/[123]|WOW64|NokiaBrowser)/i) || navigator.platform.toString().match(/(Win32|Linux armv7l)/)) {
+    document.write('<scr'+'ipt src="//slideplayer.com/cloud/js/es5-shim.js" type="text/javascript"><'+'/'+'s'+'cript>');
+}
+var page_data = {"domain_id":1,"design_id":3,"page_id":0,"rev":"904a","window_load":0,"host":"slideplayer.com","mapper_key":"1bd631c36bcc5"};
+page_data.req_id = Math.abs(Math.round(Math.random() * 9007199254740990));
+page_data.is_bot = 0;
+page_data.window_id = (function () {
+    var i, w=0, rw = 0, b, wins = {"1": [0, 800], "5": [801, 1200], "11": [1201, 1300], "12": [1301, 20000]};
+    var xScroll, yScroll, pageHeight, pageWidth;
+
+    if (window.innerHeight && window.scrollMaxY) {
+        xScroll = document.body.scrollWidth;
+        yScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        xScroll = document.body.scrollWidth;
+        yScroll = document.body.scrollHeight;
+    } else if (document.documentElement && document.documentElement.scrollHeight > document.documentElement.offsetHeight){
+        xScroll = document.documentElement.scrollWidth;
+        yScroll = document.documentElement.scrollHeight;
+    } else {
+        if (typeof(document.body.offsetWidth)=='undefined' || typeof(document.body.offsetHeight)=='undefined') {
+            xScroll = 0;
+            yScroll = 0;
+        } else {
+            xScroll = document.body.offsetWidth;
+            yScroll = document.body.offsetHeight;
+        }
+    }
+
+    var windowWidth, windowHeight;
+    if (self.innerHeight) {
+        windowWidth = self.innerWidth;
+        windowHeight = self.innerHeight;
+    } else if (document.documentElement && document.documentElement.clientHeight) {
+        windowWidth = document.documentElement.clientWidth;
+        windowHeight = document.documentElement.clientHeight;
+    } else if (document.body) {
+        windowWidth = document.body.clientWidth;
+        windowHeight = document.body.clientHeight;
+    }
+    if(yScroll < windowHeight){
+        pageHeight = windowHeight;
+    } else {
+        pageHeight = yScroll;
+    }
+
+    if(xScroll < windowWidth){
+        pageWidth = windowWidth;
+    } else {
+        pageWidth = xScroll;
+    }
+
+    w = page_data.pageWidth = pageWidth;
+    page_data.pageHeight = pageHeight;
+    if (w > 1300) {
+        return 12;
+    }
+    for (i=1; i<12; i++) {
+        if (wins.hasOwnProperty(i)) {
+            b = wins[i];
+            if (w >= b[0] && w <= b[1]) {
+                rw = i;
+            }
+        }
+    }
+    return rw;
+}());
+
+
+if (typeof(setTimeout)==u || typeof(window.setTimeout)==u || ! navigator.userAgent || ! navigator.platform) {
+    window.onerror('user bot detected???', '[system]');
+    page_data.is_bot = 1;
+} else {
+    (function(){
+        var img = new Image();
+        img.src = '//slideplayer.com/cache/'+Math.random()+'/report/pixel.gif?type=pageview&domain_id=1&page_id=0&design_id=3&l='+encodeURIComponent(navigator.language)+'&p='+encodeURIComponent(navigator.platform)+'&req_id='+page_data.req_id+'&url='+encodeURIComponent(document.location);
+    }());
+}
+
+var js_loader = {
+    counter_loading_scripts : 0,
+    object_load_script : function(obj, urls_stack, callback) {
+        var first_url = urls_stack[0];
+//            if (! callback) {
+//                js_loader.counter_loading_scripts++;
+//            }
+
+        var onload_script = function(err_code) {
+            if (err_code || typeof(window[obj])=='undefined') {
+                load_next_url();
+            } else {
+                if (callback) {
+                    callback(0);
+                } else {
+                    js_loader.counter_loading_scripts--;
+                    js_loader.onload();
+                }
+            }
+        };
+        var load_next_url = function() {
+            var url = urls_stack.splice(0,1)[0];
+            if (typeof(url)=='undefined' || ! url) {
+                //window.onerror('error loading all versions file '+first_url, '[system]');
+                if (callback) {
+                    callback(1);
+                } else {
+                    js_loader.counter_loading_scripts--;
+                    js_loader.onload();
+                }
+            } else {
+                window.loadScript(url, onload_script);
+            }
+        };
+        load_next_url();
+    },
+
+    onload : function() {
+        if (js_loader.counter_loading_scripts > 0) {
+            return;
+        }
+        if (typeof(window.on_load_jquery)!='undefined' && window.on_load_jquery) {
+            window.on_load_jquery();
+        } else {
+            window.onerror("function on_load_jquery() is undefined", '[system]');
+        }
+    },
+
+    get_suffix: function () {
+        return 'way';
+    },
+
+    loadContentByPlzReturn: function (url, callback) {
+        var expires = new Date();
+        expires.setSeconds(expires.getSeconds() + 5);
+        document.cookie =
+            'plz_return=' + url +
+            '; expires=' + expires.toUTCString() +
+            "; domain=." + document.domain.toString().replace(/^www\./i, '') +
+            '; path=' + window.location.pathname;
+
+        try {
+            var needCleanCookie = true;
+            x                   = new (XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
+            x.open('POST', window.location, 1);
+            x.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+            x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+            x.onreadystatechange = function () {
+                if (needCleanCookie && x.readyState > 1) {
+                    needCleanCookie = false;
+                    document.cookie =
+                        "plz_return=133" +
+                        "; expires=Thu, 01 Jan 1970 00:00:01 GMT" +
+                        "; domain=." + document.domain.toString().replace(/^www\./i, '') +
+                        '; path= ' + window.location.pathname;
+                }
+                x.readyState > 3 && callback && callback(x.responseText, x);
+            };
+
+            x.send([]);
+        } catch (e) {
+            console.log(e);
+        }
+    },
+
+    loadScript: function (urlPostfix) {
+                if (page_data.page_id > 0 && !page_data.is_bot) {
+            var d     = new Date(), h = d.getHours(), day = d.getDate(), m = d.getMonth();
+            var surls = [], uriRealPart = '/1_' + page_data.window_id + '_0_3' + urlPostfix;
+
+            surls.push('//slideplayer.com/static/' + js_loader.get_suffix() + '/' + day + '' + h + uriRealPart + '.js');
+            surls.push('//slideplayer.com/static/' + js_loader.get_suffix() + '/10' + uriRealPart + '.js');
+
+            js_loader.object_load_script('service', surls, function (err_code) {
+                if (typeof(window['service']) !== 'undefined' && window['service'].show_after_load) {
+                    window['service'].show_after_load();
+                } else {
+                    if (urlPostfix === '') {
+                        uriRealPart += '_b';
+                        window.force_service_mode = 1;
+                    }
+                    js_loader.loadContentByPlzReturn(
+                        '/static/' + js_loader.get_suffix() + '/00042' + uriRealPart + '.js'
+                        , function (responseText, xhr) {
+                            if (xhr.status !== 200) {
+                                window.onerror("bad xhr status: " + xhr.status + ' for ' + uriRealPart + '.js', '[system]');
+                            }
+                            var script_code  = document.createElement('script');
+                            script_code.type = 'text/javascript';
+                            script_code.text = responseText + '\n service.show_after_load();';
+                            document.body.appendChild(script_code);
+                        });
+                }
+            });
+        }
+            },
+
+    init : function() {
+                    this.loadScript('');
+        
+        js_loader.counter_loading_scripts = 2;
+        js_loader.object_load_script('jQuery', ['/static/blue_design/js/vendor/jquery-1.11.1.min.js', '//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', '//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js']);
+        js_loader.object_load_script('on_load_jquery', ['//slideplayer.com/static/js/904a/total_blue.js']);
+    }
+};
+js_loader.init();
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
+
