@@ -10,3 +10,7 @@ __pycache__/
 # config.py 
 config.py
 config.js
+
+# ignore files in XY_train & trained_models: files over 100mb
+XY_train/*
+trained_models/*
