@@ -3,6 +3,7 @@ import os
 import numpy as np
 
 import io
+from PIL import Image
 
 from flask import (
     Flask,
@@ -39,7 +40,7 @@ def allowed_file(filename):
 def load_model():
     global model
     global graph
-    model = keras.models.load_model("../trained_models/iResV2_trained.h5")
+    model = keras.models.load_model("trained_models/iResV2_trained.h5")
     graph = K.get_session().graph
 
 
@@ -74,7 +75,7 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def upload_file():
-    # data = {"success": False}
+    data = {"success": False}
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
@@ -93,11 +94,13 @@ def upload_file():
             # Save the uploaded image
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename) 
+
             # Load the saved image using Keras and resize it to the mnist
             # format of 224x224 pixels
             image_size = (224, 224,3)
             pic = keras.preprocessing.image.load_img(filepath, target_size=image_size,
-                                grayscale=True)
+                                grayscale=False)
 
             # Convert the 2D image to an array of pixel values
             image_array = prepare_image(pic)
@@ -109,7 +112,8 @@ def upload_file():
             with graph.as_default():
 
                 # Use the model to make a prediction
-                predicted_digit = model.predict_classes(image_array)[0]
+                predicted_digit = model.predict(image_array)[0]
+                # predicted_digit = model.predict(image_array)[0]
                 data["prediction"] = str(predicted_digit)
 
                 # indicate that the request was a success

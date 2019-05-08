@@ -3,13 +3,16 @@ $(function() {
         var form_data = new FormData($('#upload-file')[0]);
         $.ajax({
             type: 'POST',
-            url: '/uploadajax',
+            url: '/predict',
             data: form_data,
             contentType: false,
             cache: false,
             processData: false,
             success: function(data) {
                 console.log('Success!');
+                console.log(data);
+
+                $(".predict").children('p').text(`${data}`);
             },
         });
     });
