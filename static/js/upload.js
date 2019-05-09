@@ -12,7 +12,11 @@ $(function() {
                 console.log('Success!');
                 console.log(data);
 
-                $(".predict").children('p').text(`${data}`);
+                var prediction = eval(JSON.stringify(data.prediction));
+
+                console.log(prediction);
+
+                $(".predict").append(`<p> Our cloud prediction: ${prediction}`);
             },
         });
     });

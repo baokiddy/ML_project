@@ -94,7 +94,16 @@ def upload_file():
             # Save the uploaded image
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
-            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename) 
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+
+            # Load list of clouds in order
+            cwd_path = os.getcwd()
+            images_path = os.path.join(cwd_path, 'image_dataset/dataset')
+
+            # List the clouds in the dataset folder: 10 Clouds
+            list_clouds = [name for name in os.listdir(images_path)]
+            # list_clouds.remove('.DS_Store')
+            list_clouds.sort()
 
             # Load the saved image using Keras and resize it to the mnist
             # format of 224x224 pixels
@@ -112,9 +121,9 @@ def upload_file():
             with graph.as_default():
 
                 # Use the model to make a prediction
-                predicted_digit = model.predict(image_array)[0]
+                predicted_digit = np.argmax(model.predict(image_array)[0])
                 # predicted_digit = model.predict(image_array)[0]
-                data["prediction"] = str(predicted_digit)
+                data["prediction"] = str(list_clouds[predicted_digit])
 
                 # indicate that the request was a success
                 data["success"] = True
