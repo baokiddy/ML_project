@@ -10,7 +10,8 @@ from flask import (
     render_template,
     jsonify,
     request,
-    redirect)
+    redirect,
+    send_from_directory)
 
 from werkzeug.utils import secure_filename
 
@@ -73,7 +74,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=[ 'GET', 'POST'])
 def upload_file():
     data = {"success": False}
     if request.method == 'POST':
@@ -124,6 +125,8 @@ def upload_file():
                 predicted_digit = np.argmax(model.predict(image_array)[0])
                 # predicted_digit = model.predict(image_array)[0]
                 data["prediction"] = str(list_clouds[predicted_digit])
+
+                data["filepath"] = filepath
 
                 # indicate that the request was a success
                 data["success"] = True
