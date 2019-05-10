@@ -29,7 +29,7 @@ $(function() {
                 $(".status").append(`<p> Done! </p>`);
 
                 var prediction = eval(JSON.stringify(data.prediction));
-                var image = eval(JSON.stringify(data.filepath));
+                var image = eval(JSON.stringify(data.filename));
 
                 console.log(prediction);
                 console.log(image)
@@ -37,7 +37,7 @@ $(function() {
                 // add <p> tag and prediction
                 $(".predict").append(`<p> Our cloud prediction: ${prediction} </p>`);
 
-                $(".upload-image").append(`<img class="img-fluid d-block mx-auto" src='${image}' ></img>`);
+                $(".upload-image").append(`<img class="d-block mx-auto im-size" src='../uploads/${image}' ></img>`);
 
                 
             },

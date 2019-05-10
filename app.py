@@ -128,6 +128,8 @@ def upload_file():
 
                 data["filepath"] = filepath
 
+                data["filename"] = filename
+
                 # indicate that the request was a success
                 data["success"] = True
 
@@ -141,6 +143,10 @@ def upload_file():
          <input type=submit value=Upload>
     </form>
     '''
+
+@app.route('/uploads/<filename>', methods=[ 'GET', 'POST'])
+def uploaded_file(filename):
+    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
 
 if __name__ == "__main__":
