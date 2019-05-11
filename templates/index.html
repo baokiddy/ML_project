@@ -24,13 +24,19 @@
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link smoothScroll" href="#mission">Learn more</a>
+            <a class="nav-link smoothScroll" href="#mission">Motivation</a>
           </li>
           <li class="nav-item mx-2 mb-2 my-md-0">
-            <a class="nav-link smoothScroll" href="#team">Meet the Team</a>
+            <a class="nav-link smoothScroll" href="#cloud_type"> Types of Clouds</a>
+          </li>
+          <li class="nav-item mx-2 mb-2 my-md-0">
+            <a class="nav-link smoothScroll" href="#analysis">Model Creation</a>
           </li>
           <li class="nav-item mx-2 mb-2 my-md-0">
             <a class="nav-link smoothScroll" href="#clouds"> Identify your Cloud</a>
+          </li>
+          <li class="nav-item mx-2 mb-2 my-md-0">
+            <a class="nav-link smoothScroll" href="#team">Meet the Team</a>
           </li>
         </ul>
         <a class="btn navbar-btn btn-outline-light" href="#contact"> Contact us </a>
@@ -65,11 +71,11 @@
       </div>
     </div>
   </div>
-  <div class="py-5 bg-light">
+  <div class="py-5 bg-light" id="cloud_type" data-anchor="cloud_type>
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1 > Identifying Clouds</h1>
+            <h1 > Types of Clouds</h1>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -166,7 +172,7 @@
         </div>
       </div>
     </div>
-  <div class="py-5" >
+  <div class="py-5" id="analysis" data-anchor="analysis">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -184,18 +190,25 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center">Model analysis</h1>
-          <p class="lead mb-4">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment.</p>
+          <h1 class="text-center">Choosing our Model</h1>
+          <p class="lead mb-4">Our goal was to train and improve an image machine learning model. From our research, we found 5 feasible models:</p>
+          <li class="lead "> AlexNet </li>
+          <li class="lead "> InceptionResNetV2 </li>
+          <li class="lead "> DenseNet </li>
+          <li class="lead "> ResNet </li>
+          <li class="lead "> VGGNet </li>
+          <br>
+          <p class="lead mb-4">We decided to choose InceptionResNetV2 after evaluating it's accuracy after training it on uncurated image data.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-1.svg" width="1500">
+        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="static/assets/model/ires2.png" width="1500">
           <h4 class="my-3"> <b>#1</b> </h4>
-          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.</p>
+          <p>InceptionResNetV2</p>
         </div>
-        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-2.svg" width="1500">
+        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="static/assets/model/alex.png" width="1500">
           <h4 class="my-3"> <b>#2</b> </h4>
-          <p>I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar.</p>
+          <p>AlexNet</p>
         </div>
       </div>
     </div>
@@ -205,17 +218,17 @@
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-center">Model evaluation</h1>
-          <p class="lead mb-4">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment.</p>
+          <p class="lead mb-4">After training our models and making a choice on the best one, we curated our images to improve training and rerun our model code to create an "improved" IneceptionResNetV2 model.</p>
         </div>
       </div>
       <div class="row d-flex justify-content-between">
-        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-1.svg" width="1500">
+        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="static/assets/model/ver1.png" width="1500">
           <h4 class="my-3"> <b>#1</b> </h4>
-          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.</p>
+          <p>Analysis of our initial model</p>
         </div>
-        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-2.svg" width="1500">
+        <div class="col-md-6 col-lg-5 p-4"> <img class="img-fluid d-block" src="static/assets/model/ver2.png" width="1500">
           <h4 class="my-3"> <b>#2</b> </h4>
-          <p>I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar.</p>
+          <p>Analysis of our "improved model"</p>
         </div>
       </div>
     </div>

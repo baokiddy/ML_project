@@ -35,9 +35,9 @@ $(function() {
                 console.log(image)
 
                 // add <p> tag and prediction
-                $(".predict").append(`<p> Our cloud prediction: ${prediction} </p>`);
+                $(".predict").append(`<p style="color:blue;"> Our cloud prediction: ${prediction} </p>`);
 
-                $(".upload-image").append(`<img class="d-block mx-auto im-size" src='../uploads/${image}' ></img>`);
+                $(".upload-image").append(`<img class="d-block mx-auto im-size" " src='../uploads/${image}' ></img>`);
 
                 
             },
